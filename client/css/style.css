@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    /* background: linear-gradient(rgb(111, 161, 161),white); */
+}
+.nav{
+    width: 100%;
+    height: 8vh;
+    background-color:rgb(6, 255, 118);
+   
+}
+.nav h3{
+    float: left;
+    padding-left: 10px;
+    padding-top: 15px;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+.nav button{
+    float: right;
+    margin-right: 10px;
+    margin-top: 15px;
+    background-color: rgb(4, 84, 17);
+    padding: 6px 12px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+
+
+}
+
+.details{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+
+   
+}
+input{
+    width: 15%;
+    height: 30px;
+    margin-right: 10px;
+    padding-left: 10px;
+    
+}
+
+input[type="text"]:focus {
+    outline: none;
+  }
+.edit{
+    background-color:green;
+    padding: 6px 19px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+.delete{
+    background-color:red;
+    padding: 6px 19px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}

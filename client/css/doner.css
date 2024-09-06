@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* background-color: black; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    
+    width: 100%;
+    height: 100vh;
+    /* background-color: yellow; */
+    /* background: linear-gradient(rgb(209, 162, 211),rgb(255, 255, 255)); */
+    /* background: linear-gradient(rgb(5, 174, 174),white); */
+    
+}
+.container h2{
+    padding-top: 70px;
+    text-align: center;
+}
+
+.first{
+    
+    width: 100%;
+    height: 60vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    
+}
+/* 
+.input{
+  width: 100%;
+  background-color: red;
+
+}
+
+input{
+    margin-left: 20%;
+} */
+
+table{
+    width: 100%;
+    box-shadow: rgba(255, 211, 14, 0.35) 0px 5px 15px;
+    padding: 30px;
+}
+
+input{
+    height: 30px;
+    width: 400px;
+    padding-left: 10px;
+    
+
+}
+input[type="text"]:focus {
+    outline: none;
+  }
+.input{
+    margin-left: 50px;
+    /* padding: 10px 80px; */
+    height: 40px;
+}
+#gender{
+    /* margin-left: 50px; */
+    width: 3%;
+    margin-right: 10px;
+}
+label{
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+.btn{
+    padding: 10px 20px;
+}
+button{
+    padding: 10px 40px;
+    border: none;
+    background-color: rgb(51, 6, 141);
+    border-radius: 7px;
+    color: white;
+}
